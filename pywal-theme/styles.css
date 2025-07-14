@@ -1,0 +1,24 @@
+/*
+  Obsidian Pywal Theme
+  This file provides the basic structure for your theme.
+  The colors are dynamically injected by the main.js plugin file.
+*/
+
+.theme-dark, .theme-light {
+  --background-primary: #1a1b26;
+  --background-secondary: #24283b;
+  --text-normal: #c0caf5;
+  --text-muted: #a9b1d6;
+  --text-accent: #7aa2f7;
+  --text-accent-hover: #2ac3de;
+  --interactive-accent: #7aa2f7;
+  --interactive-accent-hover: #2ac3de;
+  --text-highlight-bg: rgba(122, 162, 247, 0.2);
+
+  --color-red: #f7768e;
+  --color-green: #9ece6a;
+  --color-yellow: #e0af68;
+  --color-blue: #7aa2f7;
+  --color-magenta: #bb9af7;
+  --color-cyan: #2ac3de;
+}
