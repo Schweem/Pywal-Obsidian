@@ -6,7 +6,7 @@ A simple obsidian plugin to enable the usage of pywal color palletes in the Obsi
 - Automatically themes Obsidian with your Pywal colors on startup.
 - Provides a command palette option to manually reload the theme.
 - Works with both light and dark `base themes`.
-- Customize path to pywal colors in settings
+- Customize path to pywal colors in settings.
 
 ---
 
@@ -26,12 +26,11 @@ Make sure you have run wal on your system to generate a color palette. The plugi
 
 - After enabling the plugin, the theme should apply automatically.
 - If you generate a new Pywal palette while Obsidian is running, `open the command palette (Cmd/Ctrl + P) and run the command "Reload Pywal Theme" to apply the new colors`.
-- Default colors.json location can be changed in settings under the community plugins area. 
+- Default colors.json location can be changed in settings under the `community plugins` area. 
 
 ---
 
 ### Contribution
-
 Things are bound to break or not work *all* the time. If something goes wrong submit a PR, we can get it sorted. 
 
 ---
