@@ -15,7 +15,7 @@ A simple obsidian plugin to enable the usage of pywal color palletes in the Obsi
 - Download latest release
 - Locate your obsidian vault and its plugins folder
 - Place into you plugins forlder
-- Place the downloaded files inside the YourVault/.obsidian/plugins/pywal-theme/ folder.
+  - Place the downloaded files inside the YourVault/.obsidian/plugins/pywal-theme/ folder.
 - Restart Obsidian.
 - Go to Settings > Community Plugins, find "Pywal Theme", and enable it.
 ```
