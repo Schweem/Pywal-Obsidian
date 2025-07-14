@@ -1,33 +1,46 @@
-Obsidian Pywal Theme
-A dynamic theme plugin for Obsidian that applies your system's Pywal color palette directly into the editor.
+## Obsidian Pywal Theme
+A simple obsidian plugin to enable the usage of pywal color palletes in the Obsidian workspace.
 
-Features
-Automatically themes Obsidian with your Pywal colors on startup.
+---
+### Features
+- Automatically themes Obsidian with your Pywal colors on startup.
 
-Provides a command palette option to manually reload the theme.
+- Provides a command palette option to manually reload the theme.
 
-Works with both light and dark base themes.
+- Works with both light and dark `base themes`.
 
-Installation
-Manual Installation
-Download the main.js, manifest.json, and styles.css files from the latest release.
+---
 
-Go to your Obsidian vault's configuration folder: YourVault/.obsidian/.
+### Installation
+```
+- Download latest release
 
-Create a new folder named pywal-theme.
+- Locate your obsidian vault and its plugins folder
 
-Place the downloaded files inside the YourVault/.obsidian/plugins/pywal-theme/ folder.
+- Place into you plugins forlder
 
-Restart Obsidian.
+- Place the downloaded files inside the YourVault/.obsidian/plugins/pywal-theme/ folder.
 
-Go to Settings > Community Plugins, find "Pywal Theme", and enable it.
+- Restart Obsidian.
 
-Usage
+- Go to Settings > Community Plugins, find "Pywal Theme", and enable it.
+```
+---
+
+### Usage
 Make sure you have run wal on your system to generate a color palette. The plugin looks for the colors.json file at ~/.cache/wal/colors.json.
 
 After enabling the plugin, the theme should apply automatically.
 
-If you generate a new Pywal palette while Obsidian is running, open the command palette (Cmd/Ctrl + P) and run the command "Reload Pywal Theme" to apply the new colors.
+If you generate a new Pywal palette while Obsidian is running, `open the command palette (Cmd/Ctrl + P) and run the command "Reload Pywal Theme" to apply the new colors`.
 
-License
+---
+
+### Contribution
+
+Things are bound to break or not work *all* the time. If something goes wrong submit a PR, we can get it sorted. 
+
+---
+
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
