@@ -1,5 +1,5 @@
 ## Obsidian Pywal Theme
-A simple obsidian plugin to enable the usage of pywal color palletes in the Obsidian workspace. No extra commands, minimal config required, **just your colors for your vault**. 
+A simple obsidian plugin to enable the usage of pywal color palletes in the Obsidian workspace.
 
 <img width="720" height="450" alt="image" src="https://github.com/user-attachments/assets/fa308bba-1356-42af-89d4-c74d1512b666" />
 
